@@ -1,8 +1,9 @@
 {
   "vendor": "mqaenvironment",
-  "name": "mockup-LiliPink",
-  "version": "3.3.0",
+  "name": "store-theme",
+  "version": "5.3.0",
   "builders": {
+    "assets": "0.x",
     "styles": "2.x",
     "store": "0.x",
     "sitemap": "0.x",
@@ -60,10 +61,13 @@
     "vtex.store-form": "0.x",
     "vtex.product-highlights": "2.x",
     "vtex.product-specifications": "1.x",
-    "vtex.tab-layout": "0.x"
+    "vtex.tab-layout": "0.x",
+    "vtex.category-menu": "2.x",
+    "vtex.condition-layout": "2.x"
   },
   "peerDependencies": {
-    "vtex.reviews-and-ratings": "2.x"
+    "vtex.reviews-and-ratings": "2.x",
+    "vtex.store-locator": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
